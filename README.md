@@ -6,4 +6,7 @@ Below is the E-R diagram of the entities:
 
 ![E-R Diagram](er-diagram.png)
 
+![Relations Diagram](relations.png)
+
+
 
