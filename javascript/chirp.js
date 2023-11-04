@@ -10,7 +10,7 @@ if (!localStorage.getItem('userId')) {
 
 function getPosts() {
     const userId = localStorage.getItem('userId')
-    const url = `http://localhost:8080/${userId}/post`
+    const url = `http://chirper-prod.eba-w257m5a5.us-east-1.elasticbeanstalk.com/${userId}/post`
 
     
 
@@ -64,7 +64,7 @@ function chirp(event) {
 
     // send to backend and create new user
     // URL where you want to send the POST request
-const url = `http://localhost:8080/${userId}/post`;
+const url = `http://chirper-prod.eba-w257m5a5.us-east-1.elasticbeanstalk.com/${userId}/post`;
 
 console.log(userId)
 console.log(url)

@@ -46,7 +46,7 @@ function register(event) {
 
     // send to backend and create new user
     // URL where you want to send the POST request
-const url = 'http://localhost:8080/user/register';
+const url = 'https://chirper-prod.eba-w257m5a5.us-east-1.elasticbeanstalk.com/user/register';
 
 // Make a POST request using fetch
 fetch(url, {

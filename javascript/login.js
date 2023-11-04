@@ -23,7 +23,7 @@ function login(event) {
 
     // send to backend and create new user
     // URL where you want to send the POST request
-const url = 'http://localhost:8080/user/login';
+const url = 'https://chirper-prod.eba-w257m5a5.us-east-1.elasticbeanstalk.com/user/login';
 
 // Make a POST request using fetch
 fetch(url, {
